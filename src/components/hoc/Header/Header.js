@@ -15,11 +15,11 @@ export default function Header() {
 				</a>
 				<a href="/schedule">
 					<i class="fas fa-calendar-alt"></i>
-					<p>Schedule</p>
+					<p> Schedule</p>
 				</a>
 				<a href="/enroll">
 					<i class="fas fa-user-plus"></i>
-					<p>Enroll</p>
+					<p> Enroll</p>
 				</a>
 			</div>
 		</div>

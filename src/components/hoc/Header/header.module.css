@@ -15,9 +15,9 @@
 .Header a {
 	display: flex;
 	align-items: center;
-	justify-items: center;
+	justify-content: space-evenly;
 	text-decoration: none;
-	width: 33%;
+	width: 15%;
 	height: 100%;
 }
 
@@ -30,6 +30,5 @@
 	display: flex;
 	width: 50%;
 	justify-content: space-evenly;
-	justify-self: right;
 }
 
