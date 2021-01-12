@@ -1,9 +1,9 @@
 import React from "react"
-import * as classes from "./header.module.css"
+import classes from "./header.module.css"
 
 export default function Header() {
 	return (
-		<div className={classes.header}>
+		<div className={classes.Header}>
 			<a href="/">
 				<i class="fas fa-hockey-puck"></i>
 				<p>Home</p>

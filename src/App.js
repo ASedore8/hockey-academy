@@ -5,6 +5,7 @@ import About from "./components/pages/About/About"
 import Header from "./components/hoc/Header/Header"
 import Enroll from "./components/pages/Enroll/Enroll"
 import Schedule from "./components/pages/Shedule/Schedule"
+import Footer from "./components/hoc/Footer/Footer"
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 				<Route path="/enroll" component={Enroll} />
 				<Route path="/about" component={About} />
 			</div>
+			<Footer />
 		</Router>
 	)
 }

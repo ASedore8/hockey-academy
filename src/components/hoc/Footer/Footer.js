@@ -1,9 +1,11 @@
+import classes from "*.module.css"
 import React from "react"
+import classes from "./Footer.module.css"
 
 function Footer() {
 	return (
-		<div>
-			<h3>Footer</h3>
+		<div className={classes.Footer}>
+			<h3>Phone Number : 1-800-96JERRY</h3>
 		</div>
 	)
 }
