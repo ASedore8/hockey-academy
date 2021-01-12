@@ -5,4 +5,31 @@
 	flex-direction: row;
 	justify-content: space-around;
 	position: static;
+	background-color: #ffffff;
 }
+
+.header p {
+	color: #2e2e2e;
+}
+
+.header a {
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	text-decoration: none;
+	width: 33%;
+	height: 100%;
+}
+
+
+.header a :hover {
+	text-decoration: underline;
+}
+
+.right {
+	display: flex;
+	width: 50%;
+	justify-content: space-evenly;
+	justify-self: right;
+}
+
