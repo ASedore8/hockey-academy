@@ -5,11 +5,11 @@
 	flex-direction: row;
 	justify-content: space-around;
 	position: static;
-	background-color: #ffffff;
+	background-color: lightslategrey;
 }
 
 .Header p {
-	color: #2e2e2e;
+	color: #ffffff;
 }
 
 .Header a {
@@ -19,6 +19,7 @@
 	text-decoration: none;
 	width: 15%;
 	height: 100%;
+	color: lightsteelblue;
 }
 
 
